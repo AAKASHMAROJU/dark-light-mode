@@ -7,9 +7,9 @@ const search_img = document.querySelector("#img-about");
 const settings_img = document.querySelector("#img-settings");
 
 const imgMode = (color) => {
-  contact_img.src = `images/contact_${color}.svg`;
-  search_img.src = `images/search_${color}.svg`;
-  settings_img.src = `images/settings_${color}.svg`;
+  contact_img.src = `/contact_${color}.svg`;
+  search_img.src = `/search_${color}.svg`;
+  settings_img.src = `/settings_${color}.svg`;
 };
 
 const darkMode = () => {
