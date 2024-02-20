@@ -23,6 +23,7 @@ const lightMode = () => {
   l_d_mode.children[1].classList.replace("fa-moon", "fa-sun");
   l_d_mode.children[1].style.color = "white";
   l_d_mode.children[0].textContent = "Light";
+  l_d_mode.children[0].color = "white";
   imgMode("light");
 };
 
