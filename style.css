@@ -152,3 +152,8 @@ input:checked + .slider:before {
   align-items: center;
   justify-content: space-around;
 }
+
+.nav-bar a label {
+  color: white;
+}
+
